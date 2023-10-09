@@ -16,5 +16,4 @@ Download and unpack the MDTAP scripts to any folder in your system. To run MDTAP
 - Paste the following lines in bashrc <br> ``export MDTAPpath=/path/to/folder/MDTAP`` <br> ``alias mdtap='/path/to/folder/MDTAP/mdtap.sh'``
 - Save the bashrc file and run it by executing the following command <br> ``source ~/.bashrc``
 
-After you install MDTAP in your system, you can just run the following command to call MDTAP and follow the on-screen instructions to analyze your MD trajectories.
-``mdtap``
+After you install MDTAP in your system, you can just run the following command to call MDTAP and follow the on-screen instructions to analyze your MD trajectories. <br> ``mdtap``
