@@ -17,7 +17,7 @@ Download and unpack the MDTAP scripts to any folder in your system. To run MDTAP
 
 - Go to the MDTAP folder after unpacking/unzipping
 
- ``**cd MDTAP**``
+    ``cd MDTAP``
 
 - Change the permission of all the scripts in the MDTAP folder
 
