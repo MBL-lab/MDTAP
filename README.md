@@ -1,3 +1,4 @@
+MDTAP
 Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
 Welcome to MDTAP!
 This is a software that ........ (Write some brief intro in 2 lines later)
