@@ -1,5 +1,7 @@
-MDTAP
-Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
+MDTAP: Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
+====================================================================================
+            Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
+====================================================================================
 Welcome to MDTAP!
 This is a software that ........ (Write some brief intro in 2 lines later)
 
@@ -19,7 +21,7 @@ chmod 777 *.sh
 - Open the bashrc file to export the path for the scripts and to create an alias
 vi  ~/.bashrc
 - Paste the following lines in bashrc
-export MDTAPpath=/path/to/folder/MDTAP/
+export MDTAPpath=/path/to/folder/MDTAP
 alias mdtap='/path/to/folder/MDTAP/mdtap.sh'
 - Save the bashrc file and run it by executing the following command
 source ~/.bashrc
