@@ -1,18 +1,14 @@
 MDTAP: Molecular Dynamics Trajectory Analysis of Permeation
-====================================================================================
-            Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
-====================================================================================
-Welcome to MDTAP!
-This is a software that ........ (Write some brief intro in 2 lines later)
 
-Prerequisites
+Molecular Dynamics Trajectory Analysis of Permeation (MDTAP) is an MD analysis software that captures and quantifies permeation events across proteins embedded in a membrane. It offers flexibility to the user to define a molecule of their interest and track its permeation across a membrane protein using the PDB structures generated from MD trajectories. A unique scoring method is developed here to detect the permeation events across protein channels irrespective of their shape and size and the type of solute molecules using the MD trajectories. This tool is beneficial in analyzing and calculating the solute/solvent permeations in an automated fashion.
+
+
+Prerequisites:
 1) Linux/Mac-based system
 2) gnuplot
 
-Getting started
-Write how to export the path and alias
-export MDTAPpath=/home/trlab8/sruthi/sruthi-mdtapscripts/
 
+Getting started:
 Download and unpack the MDTAP scripts to any folder in your system. To run MDTAP from any folder, follow the instructions given below:
 - Go to the MDTAP folder after unpacking/unzipping
 cd MDTAP
@@ -27,7 +23,5 @@ alias mdtap='/path/to/folder/MDTAP/mdtap.sh'
 source ~/.bashrc
 
 After installing MDTAP in your system, run the following command to call MDTAP and follow the on-screen instructions for the analysis of your MD trajectories.
-mdtap
 
-Analysis modules
-Write one line about each submodule
+mdtap
