@@ -1,4 +1,4 @@
-MDTAP: Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
+MDTAP: Molecular Dynamics Trajectory Analysis of Permeation
 ====================================================================================
             Molecular Dynamics Trajectory Analysis of Permeation (MDTAP)
 ====================================================================================
