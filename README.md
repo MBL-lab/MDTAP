@@ -5,7 +5,7 @@ MDTAP is an MD analysis software that captures and quantifies permeation events 
 
 ### Prerequisites:
 1) Linux/Mac-based system
-2) gnuplot
+2) Gnuplot
 
 
 ### Getting started:
