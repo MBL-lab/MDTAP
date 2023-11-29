@@ -12,7 +12,7 @@ MDTAP is an MD analysis software that captures and quantifies permeation events 
 Download and unpack the MDTAP scripts to any folder in your system. <br> ``unzip MDTAP-main.zip`` <br>
 
 To run MDTAP from any folder, follow the instructions given below:
-- Go to the MDTAP folder after unpacking/unzipping <br> ``cd MDTAP``
+- Go to the MDTAP scripts folder after unpacking/unzipping <br> ``cd MDTAP-main/MDTAP-scripts/``
 - Change the permission of all the scripts in the MDTAP folder <br> ``chmod 777 *.sh``
 - Open the ~/.bashrc file to export the path to the scripts and create an alias by pasting the following lines <br> ``export MDTAPpath=/path/to/folder/MDTAP`` <br> ``alias mdtap='/path/to/folder/MDTAP/mdtap.sh'``
 - Save the bashrc file and run it by executing the following command <br> ``source ~/.bashrc``
