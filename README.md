@@ -9,7 +9,7 @@ MDTAP is an MD analysis software that captures and quantifies permeation events 
 
 
 ### Getting started:
-Download and unpack the MDTAP scripts to any folder. <br> ``unzip MDTAP-main.zip`` <br>
+Download and unpack the MDTAP scripts to any folder. <br> ``unzip MDTAP-main.zip`` OR ``gzip MDTAP-main.zip`` <br>
 
 To run MDTAP from any folder, follow the instructions given below:
 - Go to the MDTAP scripts folder after unpacking/unzipping <br> ``cd MDTAP-main/MDTAP-scripts/``
