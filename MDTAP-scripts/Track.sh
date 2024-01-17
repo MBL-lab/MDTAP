@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ""
 echo "===================================================================================="
-echo "  B. 8. Track molecule"
+echo "  B. 7. Track molecule"
 echo " ----------------------------------------------------------------------------------"
 echo "This module takes atom numbers (as defined in the PDB files) in the form of a text file as an input and captures the molecule's Z-coordinate position (Å) with respect to time and generates a plot. This gives an idea of the migration of the molecule with respect to time." | fold -sw 80 | sed "s/^/  /g"
 echo "===================================================================================="

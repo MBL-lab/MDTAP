@@ -17,11 +17,10 @@ elif [[ $module == B ]] || [[ $module == b ]]; then
 3. Rate of change of molecules
 4. Permeation
 5. Net flux and Permeability coefficient (Pd)
-6. Ion conductance
-7. Residence time
-8. Track molecule
-9. Diffusion entry/exit"
-    echo -n "Enter an option (1, 2, or .... 9) and press [ENTER]: "
+6. Residence time
+7. Track molecule
+8. Diffusion entry/exit"
+    echo -n "Enter an option (1, 2, or .... 8) and press [ENTER]: "
         read submodule
     
     if [ $submodule -eq 1 ]; then
@@ -35,12 +34,10 @@ elif [[ $module == B ]] || [[ $module == b ]]; then
     elif [ $submodule -eq 5 ]; then
         $MDTAPpath/Netflux.sh
     elif [ $submodule -eq 6 ]; then
-        $MDTAPpath/Ionconductance.sh
-    elif [ $submodule -eq 7 ]; then
         $MDTAPpath/Residencetime.sh
-    elif [ $submodule -eq 8 ]; then
+    elif [ $submodule -eq 7 ]; then
         $MDTAPpath/Track.sh
-    elif [ $submodule -eq 9 ]; then
+    elif [ $submodule -eq 8 ]; then
         $MDTAPpath/Diffusion.sh
     fi
 elif [[ $module == C ]] || [[ $module == c ]]; then

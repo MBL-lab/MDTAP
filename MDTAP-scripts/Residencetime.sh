@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ""
 echo "===================================================================================="
-echo "  B. 7. Residence time"
+echo "  B. 6. Residence time"
 echo " ----------------------------------------------------------------------------------"
 echo "This module takes atom numbers (as defined in the PDB files) in the form of a text file as an input and captures its initial and final PDB files in the specific region and calculates time spent in that region." | fold -sw 80 | sed "s/^/  /g"
 echo "===================================================================================="

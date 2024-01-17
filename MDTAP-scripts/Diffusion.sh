@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ""
 echo "===================================================================================="
-echo "  B. 9. Diffusion entry/exit"
+echo "  B. 8. Diffusion entry/exit"
 echo " ----------------------------------------------------------------------------------"
 echo "This module calculates the number of solvent molecules that enter or exit through an entry point defined by three amino acid residues." | fold -sw 80 | sed "s/^/  /g"
 echo "===================================================================================="
@@ -279,7 +279,7 @@ above_line=$(tput cuu1)
 erase_line=$(tput el)
 echo "$above_line$erase_line"
 
-echo "The output files are stored in " $filename "at" $address/$filename
+echo "The output files are stored in" $filename "at" $address/$filename
 echo -n "Enter an option (1, 2, or 3) and press [ENTER]: "
     read option
 if [ $option -eq 1 ]; then
