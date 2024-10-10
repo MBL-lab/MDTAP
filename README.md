@@ -1,11 +1,12 @@
 # MDTAP: Molecular Dynamics Trajectory Analysis of Permeation
 
-MDTAP is an MD analysis software that captures and quantifies permeation events across proteins and nucleic acid channels. It allows the user to define a molecule of interest and track its permeation across the channel using the PDB structures generated from MD trajectories. Using the MD trajectories, a methodology is developed here to detect the permeation events across the channel irrespective of their shape, size, and the type of solute molecules permeating. This tool is beneficial in analyzing and calculating the solute/solvent permeations in an automated fashion.
+MDTAP is an MD analysis software that captures and quantifies permeation events across proteins and nucleic acid channels. It allows the user to define a molecule of interest and track its permeation across the channel using the PDB structures or CHARMM and NAMD DCD files generated from MD trajectories. Using the MD trajectories, a methodology is developed here to detect the permeation events across the channel irrespective of their shape, size, and the type of solute molecules permeating. This tool is beneficial in analyzing and calculating the solute/solvent permeations in an automated fashion.
 
 
 ### Prerequisites:
 1) Linux/Mac-based system
 2) Gnuplot
+3) Fortran
 
 
 ### Getting started:
