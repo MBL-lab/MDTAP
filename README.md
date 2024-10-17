@@ -21,3 +21,5 @@ To run MDTAP from any folder, follow the instructions given below:
 <br>After installing MDTAP, it can be run using the following command to call MDTAP and follow the on-screen instructions to analyze the MD trajectories.<br>
 
 ``mdtap``
+
+Happy "MDTAP"ing!
